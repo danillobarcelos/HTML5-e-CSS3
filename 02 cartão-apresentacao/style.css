@@ -24,8 +24,8 @@ section {
     margin-right: auto;
     margin-bottom: 75px;
     margin-left: auto;
-    width: 60vw;
-    height: 500px;
+    width: 800px;
+    height: 100%;
     background-color: var(--cor03);
     border-radius: 4px;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.222);
@@ -36,34 +36,35 @@ div {
 }
 
 div img {
-    width: 25vw;
-    height: 500px;
+    width: 357px;
+    height: 100%;
     display: block;
+    border-radius: 4px;
 }
 
-#txt1 {
+div#txt1 {
     position: absolute;
-    width: 350px;
-    height: 500px;
+    width: 357px;
+    height: 100%;
     text-align: justify;
     font-size: 100%;
     display: inline-block;
-    padding: 60px;
+    padding: 50px;
 }
 
 #txt2 {
     position: absolute;
-    width: 350px;
-    height: 500px;
+    width: 357px;
+    height: 100%;
     text-align: justify;
     font-size: 100%;
     display: inline-block;
-    padding: 60px;
+    padding: 50px;
 }
     
 #img2 {
    position: relative;
-   padding-left: 58%;
+   padding-left: 55.5%;
 }
 
 .imagem {
@@ -71,7 +72,7 @@ div img {
 }
 
 .imagem:hover {
-    opacity: 90%;
+    opacity: 80%;
 }
 
 h1 {
