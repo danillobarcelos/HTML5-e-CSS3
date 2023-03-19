@@ -18,8 +18,7 @@
     padding: 0px;
 }
 
-body,
-html {
+body, html {
     background-image: linear-gradient(to top, var(---cor04), #d5cddb);
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +63,7 @@ nav a:hover, a:active {
 
 main {
     margin: auto;
-    width: 60vw;
+    max-width: 60vw;
     text-align: justify;
 
 }
@@ -87,8 +86,51 @@ div:hover {
     transition: 0.3s;
 }
 
+div#show{
+    padding: 5%;
+    box-shadow: none;
+    border: none;
+}
+
+div#show > iframe {
+    position: relative;
+    border: none;
+    width: 100%;
+    height: 28vw;
+}
+
+div#show:hover > iframe {
+    box-shadow: 1px 1px 10px 2px rgba(255, 255, 255, 0.205);
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+div#slide {
+    padding: 5%;
+    width: 90%;
+    box-shadow: none;
+    border: none;
+}
+
+div#slide > iframe {
+    position: relative;
+    border: none;
+    width: 100%;
+    height: 25vw;
+}
+
+div#slide:hover > iframe {
+    box-shadow: 1px 1px 10px 2px rgba(255, 255, 255, 0.205);
+    background-color: transparent;
+    transition: 0.3s;
+}
+
 h2 {
     color: var(---cor03);
+}
+
+p {
+    text-indent: 40px;
 }
 
 ol {
@@ -96,6 +138,12 @@ ol {
     list-style-position: inside ;
     padding: 1px 10px 10px 1px;
     columns: 2;
+
+}
+
+li {
+    font-size: 1em;
+    text-align: left;
 }
 
 footer {
@@ -108,8 +156,9 @@ footer {
 }
 
 a#footer {
-    color: white;
+    color: #0000006c;
     text-decoration: none;
+    font-weight: bold;
 }
 a#footer:hover {
     color: var(---cor03);

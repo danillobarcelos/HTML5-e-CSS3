@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    height: 97vh;
+}
+
+ul {
+    columns: 7;
+    list-style: none;
+    display: inline-flex;
+}
+
+.slide {
+    margin: 1px 0px;
+    padding: 2px;
+    width: 100vw;
+}
+
+.slide img:hover {
+    box-shadow: 1px 1px 4px 3px #a6219d5d;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.slide:hover {
+    translate: calc(-150%);
+    transition: 14s;
+}
+
