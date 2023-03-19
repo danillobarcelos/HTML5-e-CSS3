@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    ---cor01: #1E0126;
+    ---cor02: #A6219D;
+    ---cor03: #4B15BF;
+    ---cor04: #9476AE;
+    ---cor05: #A60303;
+    ---font01: 'dancing script';
+    ---font02: 'ubuntu'
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body,
+html {
+    background-image: linear-gradient(to top, var(---cor04), #d5cddb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding-top: 20px;
+    text-align: center;
+    height: 182px;
+    width: auto;
+    background-color: var(---cor01);
+    display: block;
+}
+
+header>h1 {
+    font-family: var(---font01);
+    font-size: 3em;
+    color: white;
+}
+
+nav > a {
+    margin-top: 85px;
+    position: relative;
+
+}
+
+nav a:link, a:visited {
+    background-color: var(---cor01);
+    color: var(---cor04);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover, a:active {
+    background-color: var(---cor04);
+    color: var(---cor01);
+    box-shadow: 1px 1px 1px 1px var(---cor04);
+}
+
+main {
+    margin: auto;
+    width: 60vw;
+    text-align: justify;
+
+}
+
+article {
+    margin-bottom: 10px;
+    padding: 10px 40px 40px 40px;
+    font-family: var(---font02);
+    line-height: 2em;
+}
+
+div {
+    border-bottom: 1px outset var(---cor04);
+    padding: 10px;
+}
+
+div:hover {
+    box-shadow: 1px 1px 10px 2px rgba(255, 255, 255, 0.068);
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+h2 {
+    color: var(---cor03);
+}
+
+ol {
+    width: fit-content;
+    list-style-position: inside ;
+    padding: 1px 10px 10px 1px;
+    columns: 2;
+}
+
+footer {
+    padding: 10px;
+    background-color: var(---cor04);
+    text-align: center;
+    color: white;
+    border-top: 1px outset var(---cor04);
+
+}
+
+a#footer {
+    color: white;
+    text-decoration: none;
+}
+a#footer:hover {
+    color: var(---cor03);
+    text-decoration: none;
+}
